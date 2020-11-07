@@ -3,7 +3,7 @@ package com.example.demo;
 import java.util.Arrays;
 import java.util.Locale;
 
-import javax.sql.DataSource;
+//import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -25,8 +25,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class CodingExerciseApplication implements CommandLineRunner{
 
-	@Autowired
-	DataSource dataSource;
+	/*@Autowired
+	DataSource dataSource;*/
 	
 	public static void main(String[] args) {
 	ApplicationContext context=	SpringApplication.run(CodingExerciseApplication.class, args);
@@ -60,9 +60,9 @@ public class CodingExerciseApplication implements CommandLineRunner{
 	
 	}
 
-	@Override
+	/*@Override
 	public void run(String... args) throws Exception {
 		System.out.println(dataSource);
 		
-	}
+	}*/
 }
