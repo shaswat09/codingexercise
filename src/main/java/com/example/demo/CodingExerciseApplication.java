@@ -23,7 +23,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class CodingExerciseApplication implements CommandLineRunner{
+public class CodingExerciseApplication {
 
 	/*@Autowired
 	DataSource dataSource;*/
